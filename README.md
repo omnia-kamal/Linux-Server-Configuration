@@ -84,15 +84,15 @@ IP Address and SSH Port:
 ```
 sudo nano /etc/apache2/sites-available/ItemCatalog.conf
 <VirtualHost *:80>
-		ServerName 35.157.5.206
-		ServerAdmin omniakamal95.ok@gmail.com
-		WSGIScriptAlias / /var/www/ItemCatalog/ItemCatalog.wsgi
-		<Directory /var/www/ItemCatalog/ItemCatalog/>
+		ServerName 54.93.246.90
+		ServerAdmin test@test.com
+		WSGIScriptAlias / /var/www/catalog/catalog.wsgi
+		<Directory /var/www/catalog/catalog/>
 			Order allow,deny
 			Allow from all
 		</Directory>
-		Alias /static /var/www/ItemCatalog/ItemCatalog/static
-		<Directory /var/www/ItemCatalog/ItemCatalog/static/>
+		Alias /static /var/www/catalog/catalog/static
+		<Directory /var/www/catalog/catalog/static/>
 			Order allow,deny
 			Allow from all
 		</Directory>
@@ -111,7 +111,7 @@ import logging
 logging.basicConfig(stream=sys.stderr)
 sys.path.insert(0,"/var/www/ItemCatalog/")
 
-from ItemCatalog import app as application
+from catalog import app as application
 application.secret_key = 'secret key'
 ```
   -  # Restart Apache:
