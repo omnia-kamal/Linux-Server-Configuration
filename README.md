@@ -4,8 +4,8 @@ IP Address and SSH Port:
 
   - IP Address: 54.93.246.90
   - SSH Port: 2200
-  -URL: http://54.93.246.90.xip.io/
-
+  - URL: http://54.93.246.90.xip.io/
+  - grader's ssh key is located in /home/grader/.ssh
 
 # Software Installed:
 
