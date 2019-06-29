@@ -2,8 +2,9 @@
 
 IP Address and SSH Port:
 
-  - IP Address: 35.157.5.206
+  - IP Address: 54.93.246.90
   - SSH Port: 2200
+  -URL: http://54.93.246.90.xip.io/
 
 
 # Software Installed:
