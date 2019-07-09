@@ -2,9 +2,9 @@
 
 IP Address and SSH Port:
 
-  - IP Address: 54.93.37.47
+  - IP Address: 52.59.199.178
   - SSH Port: 2200
-  - URL: http://54.93.37.47.xip.io/
+  - URL: http://52.59.199.178.xip.io/
   - grader's ssh key is located in /home/grader/.ssh
 
 # Software Installed:
@@ -84,7 +84,7 @@ IP Address and SSH Port:
 ```
 sudo nano /etc/apache2/sites-available/ItemCatalog.conf
 <VirtualHost *:80>
-		ServerName 54.93.37.47
+		ServerName 52.59.199.178
 		ServerAdmin test@test.com
 		WSGIScriptAlias / /var/www/catalog/catalog.wsgi
 		<Directory /var/www/catalog/catalog/>
